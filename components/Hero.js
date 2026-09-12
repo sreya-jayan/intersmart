@@ -128,7 +128,7 @@ export default function Hero() {
   relative z-10 mx-auto w-full
   grid max-w-6xl grid-cols-1
   items-center lg:px-7 xl:px-0
-  lg:pt-24 xl:pt-40 lg:pb-30 max-[620px]:pt-20
+  lg:pt-24 xl:pt-40 lg:pb-36 max-[620px]:pt-20
 "
 >
 
@@ -138,7 +138,7 @@ export default function Hero() {
           {slide.heading}
         </h1>
 
-          <p className="mt-4 max-w-[340px] whitespace-pre-line font-normal leading-6 text-white sm:max-w-2xl text-xs min-[321px]:text-sm sm:text-base max-md:text-center max-md:mx-auto md:max-lg:pl-8">
+          <p className="mt-4 min-h-[72px] max-w-[340px] whitespace-pre-line font-normal leading-6 text-white sm:max-w-2xl text-xs min-[321px]:text-sm sm:text-base max-md:text-center max-md:mx-auto md:max-lg:pl-8">
             {slide.text}
           </p>
 
