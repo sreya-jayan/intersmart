@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <section
       className="
-        relative min-h-screen overflow-hidden
+        relative min-h-screen max-md:min-h-0 overflow-hidden
         bg-navy
         bg-[url('/images/Layer_1.png')]
         text-white">
