@@ -30,14 +30,14 @@ export default function ServicesSection() {
           <div className="mx-auto mt-4 h-[3px] w-30 rounded-full bg-[#0393B0]" />
         </div>
 
-        <div className="mt-25 grid grid-cols-1 items-center gap-[40px] xl:grid-cols-2 xl:gap-0">
+        <div className="mt-25 grid grid-cols-1 items-center gap-[100px] xl:grid-cols-2">
          
           
         <div className="mx-auto w-full md:w-[400px] lg:w-[500px] xl:w-full">
   <img
     src="/images/AI.svg"
     alt="Artificial Intelligence services"
-    className="h-auto w-full scale-100"
+    className="h-auto w-full xl:scale-130"
   />
 </div>
 

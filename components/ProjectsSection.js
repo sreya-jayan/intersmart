@@ -56,7 +56,7 @@ export default function ProjectsSection() {
         <div
           className="flex gap-8 touch-pan-y"
           style={{
-            transform: `translateX(calc(-${current * 52}% + ${dragX}px))`,
+            transform: `translateX(calc(-${current * 35}% + ${dragX}px))`,
             transition: dragging.current? 'none' : 'transform 0.5s cubic-bezier(0.25,1,0.5,1)'
           }}
           onTouchStart={onStart}
