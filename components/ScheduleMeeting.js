@@ -89,7 +89,7 @@ export default function ScheduleMeeting() {
               value={formData.message}
               onChange={handleChange}
               disabled={status === "loading"}
-               className="h-[72px] w-full max-w-[488px] rounded-md border border-[#2D4362] bg-white px-4 py-3 placeholder:text-lg placeholder:text-[#182434] outline-none focus:border-[#2D4362] disabled:opacity-60"
+               className="h-[72px] w-full max-w-[488px] resize-none rounded-md border border-[#2D4362] bg-white px-4 py-3 placeholder:text-lg placeholder:text-[#182434] outline-none focus:border-[#2D4362] disabled:opacity-60"
             />
           </div>
 
